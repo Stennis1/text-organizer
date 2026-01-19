@@ -1,9 +1,13 @@
+# Python
 __pycache__/
 *.pyc
+
+# OS
+.DS_Store
+
+# Build artifacts
 dist/
 build/
-*.spec
-.env
-.vscode/
-.idea/
-.DS_Store
+AppDir/
+squashfs-root/
+Text_Organizer-x86_64.AppImage
