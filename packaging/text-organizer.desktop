@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Text Oganizer
+Comment=Simple text construct, strip, and split utility
+Exec=text-organizer
+Icon=text-organizer
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
