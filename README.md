@@ -13,9 +13,24 @@ A lightweight Linux desktop utility for transforming text.
 ## Application Screenshot 
 ![Image of Application](./assets/app-screenshot.png)
 
-## Download (Recommended)
-Download the AppImage from the Releases page.
+## Install
+
+### Option 1: AppImage (recommeded)
+Download the AppImage from the [Releases page](https://github.com/Stennis1/text-organizer/releases).
 
 ```bash
 chmod +x Text_Organizer-x86_64.AppImage
 ./Text_Organizer-x86_64.AppImage
+```
+
+### Option 2: One-liner install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Stennis1/text-organizer/main/install.sh | bash
+text-organizer
+```
+
+## NOTE
+- AppImages may not run on Ubuntu 25.04 due to FUSE limitations
+
+- Works correctly on Ubuntu 20.04 / 22.04 and most Linux distros
